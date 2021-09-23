@@ -75,30 +75,38 @@
     .tendencias__cards {
         text-align: center;
         display: flex;
-        justify-content: space-betweence;
+        justify-content: space-between;
         align-items: center;
-        padding: 0rem 5rem 0rem 5rem;
+        padding: 4rem 5rem 8rem 5rem;
 
-        .tendencias__cards__row__imagen {
-            width: 20rem;
-            height: 28rem;
-            border-radius: 8px; 
+        .tendencias__cards__row {
+            width: 200px;
+            height: 417.5px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .tendencias__cards__row__imagen {
+                width: 20rem;
+                height: 28rem;
+                border-radius: 8px; 
+            }
+    
+            .tendencias__cards__row__titulo {
+                font-size: 1.5rem;
+                line-height: 2rem;
+                padding: 1rem 0rem 0rem 0rem;
+                transition-property: all;
+                transition-duration: 1s;
+            }
+    
+            .tendencias__cards__row__descripcion {
+                font-size: 1.5rem;
+                text-transform: uppercase;
+                font-family: 'Yeseva One', cursive;
+            }
         }
 
-        .tendencias__cards__row__titulo {
-            font-size: 1.5rem;
-            line-height: 2rem;
-            padding: 1.2rem 1rem 0.5rem;
-            transition-property: all;
-            transition-duration: 1s;
-        }
-
-        .tendencias__cards__row__descripcion {
-            font-size: 1.5rem;
-            text-transform: uppercase;
-            font-family: 'Yeseva One', cursive;
-            padding: 1.5rem 0rem 2rem;
-        }
     }
 }
 

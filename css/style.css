@@ -388,36 +388,50 @@ dl, ol, ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: space-betweence;
-      -ms-flex-pack: space-betweence;
-          justify-content: space-betweence;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  padding: 0rem 5rem 0rem 5rem;
+  padding: 4rem 5rem 8rem 5rem;
 }
 
-.tendencias .tendencias__cards .tendencias__cards__row__imagen {
+.tendencias .tendencias__cards .tendencias__cards__row {
+  width: 200px;
+  height: 417.5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tendencias .tendencias__cards .tendencias__cards__row .tendencias__cards__row__imagen {
   width: 20rem;
   height: 28rem;
   border-radius: 8px;
 }
 
-.tendencias .tendencias__cards .tendencias__cards__row__titulo {
+.tendencias .tendencias__cards .tendencias__cards__row .tendencias__cards__row__titulo {
   font-size: 1.5rem;
   line-height: 2rem;
-  padding: 1.2rem 1rem 0.5rem;
+  padding: 1rem 0rem 0rem 0rem;
   -webkit-transition-property: all;
   transition-property: all;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
 }
 
-.tendencias .tendencias__cards .tendencias__cards__row__descripcion {
+.tendencias .tendencias__cards .tendencias__cards__row .tendencias__cards__row__descripcion {
   font-size: 1.5rem;
   text-transform: uppercase;
   font-family: 'Yeseva One', cursive;
-  padding: 1.5rem 0rem 2rem;
 }
 
 .tendencias__cards__row__titulo:hover {
