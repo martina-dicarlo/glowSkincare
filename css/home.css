@@ -1,0 +1,190 @@
+/* Home */
+.imagen__home {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.imagen__home .imagen__home__mano {
+  margin-right: 0;
+  width: 60rem;
+  height: 90rem;
+  margin-left: 52.5%;
+  margin-top: -170px;
+}
+
+.titulo__principal {
+  font-family: 'Roboto Slab', serif;
+  font-size: 6.3rem;
+  font-weight: 700;
+  line-height: 1.3;
+  margin-left: 5.5rem;
+  margin-top: -450px;
+}
+
+.texto__principal {
+  font-size: 2.1rem;
+  margin-left: 5.5rem;
+  line-height: 1.5;
+  margin-top: 1.5rem;
+}
+
+.botonMedium {
+  margin: 2.5rem 0rem 4.5rem 5.5rem;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+  border: 1px solid #436447;
+  background-color: white;
+  border-radius: 8px;
+  width: 16rem;
+  height: 4.9rem;
+  color: #436447;
+  font-weight: 500;
+  font-size: 1.6rem;
+}
+
+.botonMedium:hover {
+  -webkit-transform: translate(0.6rem);
+          transform: translate(0.6rem);
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(44.79%, #4F7854), to(#365239));
+  background: linear-gradient(180deg, #4F7854 44.79%, #365239 100%);
+  color: white;
+}
+
+.subtitulos {
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  line-height: 6.4rem;
+  font-size: 3.8rem;
+}
+
+.tendencias {
+  background-color: #C9D781;
+  text-align: center;
+}
+
+.tendencias #tendencias__titulo {
+  padding: 3rem 0rem 2rem;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  font-size: 3.5rem;
+  color: white;
+}
+
+.tendencias #tendencias__titulo h2 {
+  font-size: 3.5rem;
+}
+
+.tendencias .tendencias__cards {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-betweence;
+      -ms-flex-pack: space-betweence;
+          justify-content: space-betweence;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0rem 5rem 0rem 5rem;
+}
+
+.tendencias .tendencias__cards .tendencias__cards__row__imagen {
+  width: 20rem;
+  height: 28rem;
+  border-radius: 8px;
+}
+
+.tendencias .tendencias__cards .tendencias__cards__row__titulo {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding: 1.2rem 1rem 0.5rem;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.tendencias .tendencias__cards .tendencias__cards__row__descripcion {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  padding: 1.5rem 0rem 2rem;
+}
+
+.tendencias__cards__row__titulo:hover {
+  text-decoration: underline;
+}
+
+.cuidado {
+  text-align: center;
+}
+
+.cuidado #cuidado__titulo {
+  display: block;
+  margin: 8rem auto 3.6rem;
+  font-size: 3.5rem;
+  font-family: 'Roboto Slab', serif;
+}
+
+.cuidado #cuidado__titulo .cuidado__grid {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.cuidado #cuidado__titulo .cuidado__grid .container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.cuidado #cuidado__titulo .cuidado__grid .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.cuidado #cuidado__titulo .cuidado__grid .container .row .cuidado__grid__card__contenido__descripcion {
+  font-size: 2rem;
+  line-height: 2.3rem;
+  font-family: 'Roboto Slab', serif;
+  padding: 1.2rem 0rem 0.5rem;
+  -webkit-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 1s;
+          transition-duration: 1s;
+}
+
+.cuidado #cuidado__titulo .cuidado__grid .container .row .cuidado__grid__card__contenido__autor {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif;
+  font-weight: 700;
+  padding: 0rem 0rem 5.5rem;
+}
+
+.cuidado #cuidado__titulo .cuidado__grid .container .row .cuidado__grid__card__contenido {
+  min-height: 110px;
+  position: relative;
+}
+
+.columna1 {
+  margin-right: 5rem;
+}
+
+.cuidado__grid__card__contenido__descripcion:hover {
+  color: #e69e98;
+}
+/*# sourceMappingURL=home.css.map */

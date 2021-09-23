@@ -1,0 +1,84 @@
+/*Comprar*/
+
+.mainSection {
+    padding: 7rem 0rem;
+}
+
+.carousel-dark {
+    height: 70rem;
+    width: 40rem;
+}
+
+.carousel-control-next, 
+.carousel-control-prev {
+    top: -20rem;
+}
+
+.columnaIz {
+    margin-right: -11rem;
+}
+
+.carousel-indicators {
+    bottom: 20rem;
+}
+
+.productoContainer {
+    padding: 3rem 0rem 0rem;
+}
+
+.tituloCompra {
+    font-size: 2.7rem;
+    line-height: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-family: 'Yeseva One', cursive;
+}
+
+.bajadaCompra {
+    font-size: 1.7rem;
+    line-height: 3rem;
+
+}
+
+.precioCompra {
+    margin-top: 1rem;
+    font-size: 2rem;
+    line-height: 3rem;
+    font-weight: 300;
+}
+
+.botonLarge_Compra {
+    margin: 2rem 0rem;
+    background-color: white;
+    border: 1px solid #436447;
+    border-radius: 8px;
+    width: 31.6rem;
+    height: 4.9rem;
+    color: #436447;
+    font-weight: 500;
+    font-size: 1.6rem;
+    transition-property: all;
+    transition-duration: 1s;
+}
+
+.botonLarge_Compra:hover {
+    transform: translate(0.6rem);
+    background: linear-gradient(180deg, #4F7854 44.79%, #365239 100%);
+    color: white
+}
+
+.accordion-button {
+    color: #562923;
+    font-weight: 700;
+    font-size: 1.5rem;
+    font-family: 'Yeseva One', cursive;
+}
+
+.accordion-button:not(.collapsed) {
+    color: #562923;
+    background-color: #c9d7818c;
+}
+
+.accordion-body {
+    font-size: 1.3rem;
+}
