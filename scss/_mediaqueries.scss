@@ -71,13 +71,9 @@
         margin-left: 0rem;
     }    
 
-    #botonFlecha {
-        padding: 0rem 48rem;
-    }
-
     .bajada-producto {
-        margin: 0rem 26rem 8rem 26rem;
-        width: 45rem;
+        margin: 15rem 0rem 8rem 0rem;
+        width: 50rem;
     }
 
     .compra {
@@ -89,11 +85,8 @@
         margin-right: 12rem;
     }
     
-    .compra__filtros {
+    .compra .compra__filtros {
         font-size: 15px;
-        margin: 0rem 3rem 8rem 2.4rem;
-        width: 23.2rem;
-        height: 3rem;
     }
 
     .subtitulo-seccion--producto {
@@ -295,14 +288,10 @@
     .columna1 {
         margin: 10px;
     }
-
-    #botonFlecha {
-        padding: 0rem 26rem;
-    }
     
     .bajada-producto {
-        margin: 0rem 6.3rem 8rem 6.3rem;
-        width: 40rem;
+        margin: 15rem 0rem 8rem 0rem;
+        width: 45rem;
         font-size: 1.8rem;
     }
 
@@ -320,11 +309,13 @@
         padding: 0rem;
     }
 
-    .compra__filtros {
-        font-size: 8px;
-        margin: 0rem 3rem 8rem 2.4rem;
-        width: 40rem;
-        height: 3rem;
+    .compra .compra__filtros {
+        font-size: 15px;
+        line-height: 1.3;
+    }
+
+    .compra p {
+        margin-top: 5px; 
     }
 
     .articuloRow {

@@ -17,6 +17,7 @@ html {
 body {
   background-color: #FFFCFA;
   font-family: 'Heebo', sans-serif;
+  overflow-x: hidden;
 }
 
 /* Navegación */
@@ -592,6 +593,18 @@ dl, ol, ul {
 }
 
 /*Productos*/
+.productos-promocion__contenedor {
+  position: relative;
+}
+
+.boton-banner {
+  position: absolute;
+  left: 50%;
+  bottom: 20px;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+}
+
 .productos-promocion__imagen {
   background-image: url(../imagenes/header-productos.jpeg);
   background-position: center;
@@ -600,23 +613,29 @@ dl, ol, ul {
 }
 
 #botonFlecha {
-  position: absolute;
-  bottom: 30px;
-  left: 50%;
   -webkit-animation: bounce 2s;
           animation: bounce 2s;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
-  padding: 0rem 60rem;
 }
 
 #botonFlecha .icono-flecha {
   width: 45px;
 }
 
+.titulos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .subtitulo-seccion--producto {
+  position: absolute;
   font-family: 'Yeseva One', cursive;
   font-weight: 500;
   text-align: center;
@@ -625,8 +644,8 @@ dl, ol, ul {
 }
 
 .bajada-producto {
-  margin: 0rem 40rem 8rem 40rem;
-  width: 45rem;
+  margin: 15rem 0rem 8rem 0rem;
+  width: 55rem;
   font-size: 20px;
   line-height: 27px;
   -webkit-box-align: center;
@@ -1011,12 +1030,9 @@ dl, ol, ul {
     grid-row-gap: 9rem;
     margin-left: 0rem;
   }
-  #botonFlecha {
-    padding: 0rem 48rem;
-  }
   .bajada-producto {
-    margin: 0rem 26rem 8rem 26rem;
-    width: 45rem;
+    margin: 15rem 0rem 8rem 0rem;
+    width: 50rem;
   }
   .compra {
     display: -webkit-box;
@@ -1029,11 +1045,8 @@ dl, ol, ul {
   .columnaIz {
     margin-right: 12rem;
   }
-  .compra__filtros {
+  .compra .compra__filtros {
     font-size: 15px;
-    margin: 0rem 3rem 8rem 2.4rem;
-    width: 23.2rem;
-    height: 3rem;
   }
   .subtitulo-seccion--producto {
     font-weight: 500;
@@ -1218,12 +1231,9 @@ dl, ol, ul {
   .columna1 {
     margin: 10px;
   }
-  #botonFlecha {
-    padding: 0rem 26rem;
-  }
   .bajada-producto {
-    margin: 0rem 6.3rem 8rem 6.3rem;
-    width: 40rem;
+    margin: 15rem 0rem 8rem 0rem;
+    width: 45rem;
     font-size: 1.8rem;
   }
   .subtitulo-seccion--producto {
@@ -1242,11 +1252,12 @@ dl, ol, ul {
             justify-content: space-between;
     padding: 0rem;
   }
-  .compra__filtros {
-    font-size: 8px;
-    margin: 0rem 3rem 8rem 2.4rem;
-    width: 40rem;
-    height: 3rem;
+  .compra .compra__filtros {
+    font-size: 15px;
+    line-height: 1.3;
+  }
+  .compra p {
+    margin-top: 5px;
   }
   .articuloRow {
     display: -webkit-box;

@@ -6,7 +6,6 @@
 
 html {
     font-size: 62.5%; /* Por defecto es 100%, 62,5% cambia la base de 16px a 10px */
-
     overflow-y: scroll; 
     scroll-behavior: smooth; 
 }
@@ -14,6 +13,7 @@ html {
 body {
     background-color: #FFFCFA;
     font-family: 'Heebo', sans-serif;
+    overflow-x: hidden;
 }
 
 /* Navegación */

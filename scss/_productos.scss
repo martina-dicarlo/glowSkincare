@@ -1,5 +1,16 @@
 /*Productos*/
 
+.productos-promocion__contenedor {
+    position: relative;
+}
+
+.boton-banner {
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform:translate(-50%, 0);
+}
+
 .productos-promocion__imagen {
     background-image: url(../imagenes/header-productos.jpeg);
     background-position: center;
@@ -8,20 +19,23 @@
 }
 
 #botonFlecha {
-    position: absolute;
-    bottom: 30px;
-    left: 50%;
     animation: bounce 2s;
     animation-direction: alternate;
     animation-iteration-count: infinite;
-    padding: 0rem 60rem;
 
     .icono-flecha {
         width: 45px;
     }
 }
 
+
+.titulos {
+    display: flex;
+    justify-content: center;
+}
+
 .subtitulo-seccion--producto {
+    position: absolute;
     font-family: 'Yeseva One', cursive;
     font-weight: 500;
     text-align: center;
@@ -30,8 +44,8 @@
 }
 
 .bajada-producto {
-    margin: 0rem 40rem 8rem 40rem;
-    width: 45rem;
+    margin: 15rem 0rem 8rem 0rem;
+    width: 55rem;
     font-size: 20px;
     line-height: 27px;
     align-items: center;
