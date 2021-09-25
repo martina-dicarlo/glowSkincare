@@ -103,6 +103,12 @@ dl, ol, ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .formularios #videoDada {
@@ -130,7 +136,7 @@ dl, ol, ul {
 
 .botonLarge {
   margin-left: 5.5rem;
-  margin-top: 2.5rem;
+  margin-top: 3.5rem;
   background-color: white;
   border: 1px solid #436447;
   border-radius: 8px;
@@ -155,17 +161,8 @@ dl, ol, ul {
 
 /*Inicio sesion*/
 .formularios .imagenLogin {
-  height: 50rem;
-  width: 50rem;
-  margin: 8rem 5rem 15rem 5.5rem;
-}
-
-.formularios #saludo {
-  font-family: 'Heebo', sans-serif;
-  font-size: 3.1rem;
-  margin-left: 5.5rem;
-  line-height: 3.5rem;
-  font-weight: 400;
+  height: 55rem;
+  width: 55rem;
 }
 
 .formularios .subtitulosInput {
@@ -174,9 +171,14 @@ dl, ol, ul {
   font-size: 4rem;
 }
 
+.formularios .datosLogin {
+  margin-left: 5.5rem;
+  font-size: 1.5rem;
+  margin-top: 1.5rem;
+}
+
 .formularios #mail, .formularios #password {
   margin-left: 5.5rem;
-  margin-top: 1.5rem;
   border: 2px solid rgba(0, 0, 0, 0.23);
   border-radius: 8px;
   width: 316px;
@@ -194,7 +196,7 @@ dl, ol, ul {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-top: 0.5rem;
+  margin-top: 1.5rem;
   margin-left: 5.5rem;
   border: none;
 }
@@ -221,11 +223,11 @@ dl, ol, ul {
 }
 
 .error .error__imagen {
-  width: 50rem;
-  height: 50rem;
+  width: 60rem;
+  height: 60rem;
   -webkit-filter: drop-shadow(0px 6px 8px rgba(0, 0, 0, 0.17));
           filter: drop-shadow(0px 6px 8px rgba(0, 0, 0, 0.17));
-  margin: 1rem 9rem 3rem 0rem;
+  margin: 1rem 7rem 3rem 0rem;
 }
 
 .error .error__contenedor {
@@ -1099,7 +1101,7 @@ dl, ol, ul {
     width: 40rem;
     margin: 8rem 4rem 15rem -0.5rem;
   }
-  .formularios #saludo {
+  .formularios .datosLogin {
     margin-left: 0rem;
   }
   .formularios .recuerdame {
@@ -1338,6 +1340,9 @@ dl, ol, ul {
   .parrafos {
     font-size: 1.5rem;
     line-height: 1.2;
+  }
+  .formularios .datosLogin {
+    margin-left: 0rem;
   }
   .botonLarge {
     width: 25rem;
