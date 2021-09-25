@@ -545,13 +545,13 @@ dl, ol, ul {
 }
 
 .descarga .descarga__container .mockup-imagen {
-  background-image: url("/imagenes/mockup.jpg");
+  background-image: url("../imagenes/mockup.jpg");
   background-position: center;
   background-size: cover;
 }
 
 .descarga .descarga__container .icono-imagen {
-  background-image: url("/imagenes/icono.jpg");
+  background-image: url("../imagenes/icono.jpg");
   background-position: center;
   background-size: cover;
 }

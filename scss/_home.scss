@@ -204,7 +204,7 @@
         /*EACH*/
         @each $descarga-app in mockup, icono {
             .#{$descarga-app}-imagen {
-                background-image: url('/imagenes/#{$descarga-app}.jpg');
+                background-image: url('../imagenes/#{$descarga-app}.jpg');
                 background-position: center;
                 background-size: cover;
             }
