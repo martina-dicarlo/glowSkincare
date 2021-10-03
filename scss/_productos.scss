@@ -96,9 +96,14 @@
         background-color: transparent;
         padding: 1rem ;
 
-        h4 {
-            padding: 2rem 0rem 0rem;
-        } /* temporal hasta poner las estrellas */
+        .producto-cards__rating {
+            padding-top: 5rem;
+            margin: 0rem;
+            background-image: url(../imagenes/estrellas.png);
+            background-position: center left;
+            background-repeat: no-repeat;
+            background-size: 10rem;
+        } 
 
         img {
             border-radius: 8px;

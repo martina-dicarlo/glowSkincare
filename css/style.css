@@ -714,11 +714,15 @@ dl, ol, ul {
   height: 397px;
   background-color: transparent;
   padding: 1rem;
-  /* temporal hasta poner las estrellas */
 }
 
-.producto-cards article h4 {
-  padding: 2rem 0rem 0rem;
+.producto-cards article .producto-cards__rating {
+  padding-top: 5rem;
+  margin: 0rem;
+  background-image: url(../imagenes/estrellas.png);
+  background-position: center left;
+  background-repeat: no-repeat;
+  background-size: 10rem;
 }
 
 .producto-cards article img {
