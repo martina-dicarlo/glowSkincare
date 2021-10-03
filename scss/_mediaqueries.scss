@@ -76,11 +76,6 @@
         width: 50rem;
     }
 
-    .compra {
-        display: flex;
-        justify-content: space-between;
-    }
-
     .columnaIz {
         margin-right: 12rem;
     }
@@ -226,6 +221,10 @@
         width: 50%;
         transform: translateX(100%);
         transition: transform 0.5s ease-in;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
     }
 
     .navegacion li {
@@ -244,13 +243,6 @@
     #logoPrincipal {
         width: 10rem;
         padding: 3rem 0rem;
-    }
-    
-    .navegacion {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
     }
 
     .titulo__principal {
@@ -304,18 +296,18 @@
     }
 
     .compra {
-        display: flex;
-        justify-content: space-between;
-        padding: 0rem;
+        padding: 0rem 11rem 5rem 11rem;        
+        flex-wrap: wrap;
     }
 
     .compra .compra__filtros {
         font-size: 15px;
         line-height: 1.3;
+        width: 12rem;
     }
 
     .compra p {
-        margin-top: 5px; 
+        margin-top: 11px; 
     }
 
     .articuloRow {
@@ -330,7 +322,7 @@
         grid-template-rows: repeat(3, 35rem);
         grid-column-gap: 1.6rem;
         grid-row-gap: 9rem;
-        margin-left: 0rem;
+        margin-bottom: 7rem;
     } 
     
     .producto-cards article {
@@ -366,7 +358,7 @@
     }
 
     .columnaDer {
-        padding: 0rem 3rem 4rem 3rem;
+        padding: 4rem 3rem 4rem 3rem;
     }
 
     .productoContainer {
@@ -395,10 +387,14 @@
         padding: 10rem 4rem 3rem 4rem;
     }
 
-    #videoDada {
-        display: none;
+    .formularios {
+        flex-direction: column;
     }
     
+    .formularios #videoDada {
+        margin: 8rem 0rem 0rem 0rem;
+    }
+
     .formularios .formulariosPiel_inicio {
         margin: 8rem 0rem 15rem 0rem;
     }
@@ -444,8 +440,8 @@
     }
 
     .formularios .imagenLogin {
-        display: none;
-    }
+        margin: 8rem 0rem 0rem 0rem;
+    }   
 
     .footer__seguinos {
         font-size: 1.5rem;

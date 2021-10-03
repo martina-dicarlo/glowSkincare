@@ -161,6 +161,10 @@ dl, ol, ul {
 }
 
 /*Inicio sesion*/
+.formularios {
+  margin-bottom: 3rem;
+}
+
 .formularios .imagenLogin {
   height: 55rem;
   width: 55rem;
@@ -661,6 +665,9 @@ dl, ol, ul {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 0rem 18rem 5rem 18rem;
 }
 
@@ -671,14 +678,16 @@ dl, ol, ul {
   font-weight: 600;
   font-size: 13px;
   line-height: 27px;
-  width: 23.2rem;
-  height: 3rem;
   border-radius: 4px;
   text-align: center;
   -webkit-transition-property: all;
   transition-property: all;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
+}
+
+.compra .compra__filtros p {
+  margin-top: 11px;
 }
 
 .compra__filtros:hover {
@@ -1038,14 +1047,6 @@ dl, ol, ul {
     margin: 15rem 0rem 8rem 0rem;
     width: 50rem;
   }
-  .compra {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
   .columnaIz {
     margin-right: 12rem;
   }
@@ -1175,6 +1176,11 @@ dl, ol, ul {
     transition: -webkit-transform 0.5s ease-in;
     transition: transform 0.5s ease-in;
     transition: transform 0.5s ease-in, -webkit-transform 0.5s ease-in;
+    display: flex;
+    flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    align-items: center;
   }
   .navegacion li {
     opacity: 1;
@@ -1189,20 +1195,6 @@ dl, ol, ul {
   #logoPrincipal {
     width: 10rem;
     padding: 3rem 0rem;
-  }
-  .navegacion {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -ms-flex-pack: distribute;
-        justify-content: space-around;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
   }
   .titulo__principal {
     font-size: 4.3rem;
@@ -1248,20 +1240,17 @@ dl, ol, ul {
     margin: 3rem 4.5rem 3rem 4rem;
   }
   .compra {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    padding: 0rem;
+    padding: 0rem 11rem 5rem 11rem;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .compra .compra__filtros {
     font-size: 15px;
     line-height: 1.3;
+    width: 12rem;
   }
   .compra p {
-    margin-top: 5px;
+    margin-top: 11px;
   }
   .articuloRow {
     display: -webkit-box;
@@ -1281,7 +1270,7 @@ dl, ol, ul {
         grid-template-rows: repeat(3, 35rem);
     grid-column-gap: 1.6rem;
     grid-row-gap: 9rem;
-    margin-left: 0rem;
+    margin-bottom: 7rem;
   }
   .producto-cards article {
     display: -webkit-box;
@@ -1315,7 +1304,7 @@ dl, ol, ul {
     top: -10rem;
   }
   .columnaDer {
-    padding: 0rem 3rem 4rem 3rem;
+    padding: 4rem 3rem 4rem 3rem;
   }
   .productoContainer {
     padding: 0rem;
@@ -1342,8 +1331,14 @@ dl, ol, ul {
     font-size: 3.2rem;
     padding: 10rem 4rem 3rem 4rem;
   }
-  #videoDada {
-    display: none;
+  .formularios {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .formularios #videoDada {
+    margin: 8rem 0rem 0rem 0rem;
   }
   .formularios .formulariosPiel_inicio {
     margin: 8rem 0rem 15rem 0rem;
@@ -1380,7 +1375,7 @@ dl, ol, ul {
     display: none;
   }
   .formularios .imagenLogin {
-    display: none;
+    margin: 8rem 0rem 0rem 0rem;
   }
   .footer__seguinos {
     font-size: 1.5rem;
