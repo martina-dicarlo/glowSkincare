@@ -11,6 +11,154 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link href="../imagenes/favicon.png" rel="icon" type="image/png"/>
     <title>Glow | Home</title>
+
+    <style>
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background-color: #EDA7A2;
+            filter: drop-shadow(0px 6px 8px rgba(0, 0, 0, 0.17));
+            position: sticky;
+            top: 0px;
+            z-index: 4;
+        }
+
+        dl, ol, ul {
+            margin-bottom: 0px;
+        }
+
+        #logoPrincipal {
+            width: 15rem;
+        }
+
+        .logo {
+            margin-left: 5.5rem;
+        }
+
+        .navegacion {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            width: 68%;
+            height: 146px;
+        }
+            
+        li {
+                list-style: none;
+            }
+
+        a {
+            text-decoration: none;
+            font-family: 'Yeseva One', cursive;
+            color: whitesmoke;
+            font-size: 2.5rem;
+            transition-property: all;
+            transition-duration: 1s;
+        }
+    
+        
+        .navegacion li a:hover {
+            color: #562923;
+            text-decoration: underline;
+        }
+
+        .hamburguesa {
+            display: none;
+        }
+
+        div {
+            width: 25px;
+            height: 3px;
+            background-color: whitesmoke;
+            margin: 5px;
+        }
+
+        .error {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .error__imagen {
+            width: 60rem;
+            height: 60rem;
+            filter: drop-shadow(0px 6px 8px rgba(0, 0, 0, 0.17));
+            margin: 1rem 7rem 3rem 0rem;
+        }
+
+        .error__contenedor {
+            width: 43.4rem;
+        }
+
+        .error__contenedor__titulo {
+            font-family: 'Yeseva One', cursive;
+            font-size: 5.3rem;
+            padding: 0rem 0rem 4rem 0rem;
+        }
+
+        .error__contenedor__subtitulo {
+            font-family: 'Yeseva One', cursive;
+            font-size: 3rem;
+            padding-bottom: 3rem;
+        }
+
+        .error__contenedor__descripcion {
+            font-size: 2rem;
+            width: 30rem;
+            line-height: 1.2;
+        }
+
+        .botonLarge_Error {
+            margin-top: 2.5rem;
+            background-color: white;
+            border: 1px solid #436447;
+            border-radius: 8px;
+            width: 31.6rem;
+            height: 4.9rem;
+            color: #436447;
+            font-weight: 500;
+            font-size: 1.6rem;
+            transition-property: all;
+            transition-duration: 1s;
+        }
+
+        .botonLarge_Error:hover {
+            transform: translate(0.6rem);
+            background: linear-gradient(180deg, #4F7854 44.79%, #365239 100%);
+            color: white
+        }
+
+        /* Footer */
+
+        .footer{
+            background-color: #EDA7A2;
+            width: 100%;
+            height: 211px;
+        }
+        
+        .footer__seguinos {
+            color: #562923;
+            font-size: 2rem;
+            font-weight: 700;
+            line-height: 4;
+            margin-left: 5.5rem;
+        }
+
+        .footer__redes {
+            margin-left: 5.5rem;
+            height: 10%;
+            width: 26%;
+            display: inline;
+        }
+
+        .footer__logo {
+            width: 10%;
+            margin-left: 60%;
+        }
+        
+    </style>
 </head>
 <body>
     <!--Navegación-->
