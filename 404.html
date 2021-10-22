@@ -17,6 +17,87 @@
 
     <header>
         <style>
+            * {
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+            }
+
+            html {
+                font-size: 62.5%; /* Por defecto es 100%, 62,5% cambia la base de 16px a 10px */
+                overflow-y: scroll; 
+                scroll-behavior: smooth; 
+            }
+
+            body {
+                background-color: #FFFCFA;
+                font-family: 'Heebo', sans-serif;
+                overflow-x: hidden;
+            }
+
+            nav {
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                background-color: #EDA7A2;
+                filter: drop-shadow(0px 6px 8px rgba(0, 0, 0, 0.17));
+                position: sticky;
+                top: 0px;
+                z-index: 4;
+            }
+
+            dl, ol, ul {
+                margin-bottom: 0px;
+            }
+
+            #logoPrincipal {
+                width: 15rem;
+            }
+
+            .logo {
+                margin-left: 5.5rem;
+            }
+
+            .navegacion {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                width: 68%;
+                height: 146px;
+            }
+
+            li {
+                list-style: none;
+            }
+
+            a {
+                text-decoration: none;
+                font-family: 'Yeseva One', cursive;
+                color: whitesmoke;
+                font-size: 2.5rem;
+                transition-property: all;
+                transition-duration: 1s;
+            }
+            
+            
+            .navegacion li a:hover {
+                color: #562923;
+                text-decoration: underline;
+            }
+
+            .hamburguesa {
+                display: none;
+            }
+
+            div {
+                width: 25px;
+                height: 3px;
+                background-color: whitesmoke;
+                margin: 5px;
+            }
+            
+
             .error {
                 display: flex;
                 justify-content: center;
