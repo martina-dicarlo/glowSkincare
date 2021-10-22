@@ -1467,5 +1467,25 @@ dl, ol, ul {
     grid-template-columns: repeat(2, 17rem);
     margin-right: 3rem;
   }
+  .footer .footer__seguinos {
+    margin-left: 2.5rem;
+  }
+  .footer .footer__redes {
+    margin-left: 2.5rem;
+  }
+  .footer .footer__logo {
+    width: 28%;
+    margin-left: 67%;
+    margin-top: -6rem;
+  }
+  #videoDada {
+    width: 38rem;
+  }
+  .botonLarge {
+    margin-left: 5rem;
+  }
+  .formularios .formulariosPiel_inicio p {
+    margin-left: 1rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
