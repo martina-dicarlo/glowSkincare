@@ -1360,4 +1360,27 @@ dl, ol, ul {
             transform: translateX(0px);
   }
 }
+
+@media only screen and (max-width: 375px) {
+  .tendencias .tendencias__cards .tendencias__cards__row .tendencias__cards__row__titulo {
+    padding: 1rem 9rem 0rem 0rem;
+  }
+  .tendencias__cards__row__descripcion {
+    margin-top: 15rem;
+  }
+  .cuidado__grid__card__contenido__descripcion {
+    margin-left: 0px;
+  }
+  .cuidado__grid__card__contenido__autor {
+    margin-left: 23px;
+  }
+  .columna1 {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  .columna2 {
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
